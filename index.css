@@ -21,9 +21,10 @@ body {
   border-radius: 15px;
 }
 
-.inner .loginform .greeting h1 {
+.inner .loginform .greeting {
   text-align: center;
-  font-size: large;
+  font-size: 30px;
+  font-weight: 700;
   margin: 30px;
 }
 
