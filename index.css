@@ -1,0 +1,75 @@
+/* Common */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #34495e;
+}
+
+/* login Form */
+.inner {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+.inner .loginform .greeting h1 {
+  text-align: center;
+  font-size: large;
+  margin: 30px;
+}
+
+.inner .loginform .inputyourid,
+.inner .loginform .inputyourpwd {
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px;
+}
+
+.inner .loginform .id,
+.inner .loginform .pw {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #636e72;
+  font-size: 16px;
+  height: 25px;
+  background: none;
+}
+
+.loginform .btn {
+  color: #fff;
+}
+
+.loginform .btn .btn__signin {
+  position: relative;
+  left: 40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width: 80%;
+  height: 40px;
+  background: linear-gradient(125deg, #81ecec, #6c5ce7, #81ecec);
+  background-position: left;
+  background-size: 200%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline;
+}
+
+.loginform .btn .btn__signin:hover {
+  background-position: right;
+}
+.bottomText {
+  text-align: center;
+}
